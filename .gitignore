@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+venv/
+.env/
+env/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Data files (raw - too large for GitHub)
+data/raw/*.csv
+data/raw/*.xlsx
+
+# Processed data (optional - comment out if you want to include)
+# data/processed/*.csv
+
+# Power BI temp files
+*.pbix.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
